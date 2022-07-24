@@ -1,0 +1,30 @@
+{
+  "name": "imageresizer-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SayeedMahdi/imageResizer-Node.js.git"
+  },
+  "author": "Sayeed Mahdi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SayeedMahdi/imageResizer-Node.js/issues"
+  },
+  "homepage": "https://github.com/SayeedMahdi/imageResizer-Node.js#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.6",
+    "multer": "^1.4.5-lts.1",
+    "sharp": "^0.30.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
